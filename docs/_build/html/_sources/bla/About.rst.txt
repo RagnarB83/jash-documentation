@@ -1,0 +1,39 @@
+
+==================================================
+About jASH
+==================================================
+
+jASH is a Julia-based computational chemistry and QM/MM environment, primarily for molecular calculations in the gas phase,
+explicit solution, crystal or protein environment. Can do single-point calculations, geometry optimizations, molecular dynamics (soon), numerical frequencies using a MM, QM or QM/MM Hamiltonian.
+
+It is a Julia rewrite of ASH, a Python-based code.
+
+Requirements:
+
+    - Julia installation (>1.5 recommended)
+    - Python 3 (for support of legacy code and interfaces to Python libraries).
+    - geomeTRIC (optimizer). Python library, easily installed via pip.
+
+
+
+#####################
+Features
+#####################
+
+**Flexible coordinate input:**
+    - coordinate string
+    - XYZ file
+    - CIF file
+    - PDB file
+    - Python lists
+    - ASH file format
+
+
+**Interfaces to various QM codes:**
+    - ORCA (inputfile-based). Parallelization via OpenMPI. Flexible input, BS-DFT, pointcharge embedding.
+    - xTB (both as Python library and inputfile-based). OpenMP parallelization
+
+
+**Molecular dynamics**
+    - **To be done**
+
